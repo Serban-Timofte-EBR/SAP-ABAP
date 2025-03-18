@@ -1,0 +1,21 @@
+"! <p class="shorttext synchronized">Implement this interface to execute an ABAP class (Classrun)</p>
+"!
+"! Provides a light-weight solution for executing an ABAP program without launching the integrated SAP GUI.<br/>
+"! Furthermore, this feature enables you to display any kind of text and/or content of data into the Console View.
+"! <h2>Example:</h2>
+"! METHOD if_oo_adt_classrun~main. <br/>
+"! &nbsp;&nbsp; SELECT FROM ... FIELDS ... INTO TABLE ... .<br/>
+"! &nbsp;&nbsp; out-&gt;write(  EXPORTING data = lt_data name = 'Meaningful description ...' ). <br/>
+"! ENDMETHOD. <br/>
+"!
+"! <h2>Output</h2>
+"! BP_ID       COMPANY_NAME EMAIL_ADDRESS            PHONE_NUMBER       FAX_NUMBER <br/>
+"! 0100000083  Consumer     demo_.an_uia&#64;sap.com     +49 408311-357370  +49 491629-6077 <br/>
+"! 0100000084  Consumer     demo_.hk_uia&#64;sap.com     +49 681933-49944   +49 720349-874614 <br/>
+"! 0100000085  Consumer     demo_a2etest_uia&#64;sap.com +49 80642-81594    +49 246107-953045
+INTERFACE IF_OO_ADT_CLASSRUN
+  PUBLIC .
+  METHODS main
+    IMPORTING
+      out TYPE REF TO if_oo_adt_classrun_out.
+ENDINTERFACE.

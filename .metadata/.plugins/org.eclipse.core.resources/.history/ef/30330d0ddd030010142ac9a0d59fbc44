@@ -1,0 +1,9 @@
+defaultVTrees=FAVORITE_PACKAGES,FAVORITE_OBJECTS,RELEASED_FOR_CLOUD
+eclipse.preferences.version=1
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/facets=package,group,type
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/filter=package\:ZLOCAL
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/linkLevels=0
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/name=Favorite Packages
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/predefinedTree=FAVORITE_PACKAGES
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/searchPattern=
+vtrees/e154b40c-0f31-457a-a1ad-ec64ae43ef1f/supportLinkWithEditor=true
