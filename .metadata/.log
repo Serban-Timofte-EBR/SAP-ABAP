@@ -33,3 +33,378 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.sap.adt.util 1 0 2025-03-18 11:31:07.517
 !MESSAGE successfully loaded keystore "Windows-MY"
+
+!ENTRY com.sap.adt.activation.ui 1 0 2025-03-20 09:47:41.977
+!MESSAGE The activation cannot be performed due to another action already holding locks, please execute the activation again.
+
+!ENTRY org.eclipse.ui 4 0 2025-03-20 09:54:16.972
+!MESSAGE The proxied handler for 'com.sap.adt.docu.ui.internal.actions.ShowAbapProblemHandler' could not be loaded
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in com.sap.adt.apireleasestate.ui was unable to load class com.sap.adt.docu.ui.internal.actions.ShowAbapProblemHandler.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:240)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:223)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:987)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:275)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.loadHandler(HandlerProxy.java:336)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.setEnabled(HandlerProxy.java:221)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.setEnabled(E4HandlerProxy.java:134)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.setEnabled(HandlerServiceHandler.java:91)
+	at org.eclipse.core.commands.Command.setEnabled(Command.java:856)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.canExecute(HandlerServiceImpl.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:248)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:89)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:293)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1213)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5178)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4786)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2354)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4160)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+Caused by: java.lang.ClassNotFoundException: com.sap.adt.docu.ui.internal.actions.ShowAbapProblemHandler cannot be found by com.sap.adt.apireleasestate.ui_3.48.2
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:567)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:562)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:652)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:221)
+	... 56 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2025-03-20 09:54:16.973
+!MESSAGE Plug-in com.sap.adt.apireleasestate.ui was unable to load class com.sap.adt.docu.ui.internal.actions.ShowAbapProblemHandler.
+!STACK 0
+java.lang.ClassNotFoundException: com.sap.adt.docu.ui.internal.actions.ShowAbapProblemHandler cannot be found by com.sap.adt.apireleasestate.ui_3.48.2
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:567)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:562)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:438)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:652)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:221)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:987)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:275)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.loadHandler(HandlerProxy.java:336)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.setEnabled(HandlerProxy.java:221)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.setEnabled(E4HandlerProxy.java:134)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.setEnabled(HandlerServiceHandler.java:91)
+	at org.eclipse.core.commands.Command.setEnabled(Command.java:856)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.canExecute(HandlerServiceImpl.java:170)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:202)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:248)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:89)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:293)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4321)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1208)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1232)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1213)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5178)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4786)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1482)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2354)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5089)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:241)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4160)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+!SESSION 2025-03-21 12:07:05.539 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-21 12:07:47.463
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register a package for 'http://www.sap.com/adt/dbtestdoubles/cds/testcases'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-21 12:07:47.471
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register an extension parser for 'cdstestcases'
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-21 12:07:47.701
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-21 12:07:56.058
+!MESSAGE Logback config file: C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-21 12:08:02.923
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I758310'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.adt.util 1 0 2025-03-21 12:08:10.234
+!MESSAGE try to find keystore(s) of operating system
+
+!ENTRY com.sap.adt.util 1 0 2025-03-21 12:08:10.264
+!MESSAGE successfully loaded keystore "Windows-ROOT"
+
+!ENTRY com.sap.adt.util 1 0 2025-03-21 12:08:10.379
+!MESSAGE successfully loaded keystore "Windows-MY"
+!SESSION 2025-03-24 12:28:59.705 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-24 12:29:36.475
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register a package for 'http://www.sap.com/adt/dbtestdoubles/cds/testcases'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-24 12:29:36.501
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register an extension parser for 'cdstestcases'
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-24 12:29:36.740
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-24 12:29:43.470
+!MESSAGE Logback config file: C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-24 12:29:53.647
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I758310'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.adt.util 1 0 2025-03-24 12:30:10.011
+!MESSAGE try to find keystore(s) of operating system
+
+!ENTRY com.sap.adt.util 1 0 2025-03-24 12:30:10.124
+!MESSAGE successfully loaded keystore "Windows-ROOT"
+
+!ENTRY com.sap.adt.util 1 0 2025-03-24 12:30:10.516
+!MESSAGE successfully loaded keystore "Windows-MY"
+!SESSION 2025-03-25 09:59:01.787 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-25 09:59:45.585
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register a package for 'http://www.sap.com/adt/dbtestdoubles/cds/testcases'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-25 09:59:45.601
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register an extension parser for 'cdstestcases'
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-25 09:59:45.828
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-25 10:00:00.252
+!MESSAGE Logback config file: C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-25 10:00:07.620
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I758310'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.adt.util 1 0 2025-03-25 10:00:12.543
+!MESSAGE try to find keystore(s) of operating system
+
+!ENTRY com.sap.adt.util 1 0 2025-03-25 10:00:12.581
+!MESSAGE successfully loaded keystore "Windows-ROOT"
+
+!ENTRY com.sap.adt.util 1 0 2025-03-25 10:00:12.612
+!MESSAGE successfully loaded keystore "Windows-MY"
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-03-25 15:39:15.831
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.sap.adt.sapgui.ui.internal.win32.communication.WinGuiCommandQueue RUNNING
+	 at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	 at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	 at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	 at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	 at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	 at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1712)
+	 at java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	 at com.sap.adt.sapgui.ui.internal.win32.communication.WinGuiCommandQueue.run(WinGuiCommandQueue.java:48)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-03-25 15:39:15.833
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.sap.adt.sapgui.ui.internal.win32.communication.WinGuiEventResponseQueue RUNNING
+	 at com.sun.jna.Native.invokeInt(Native Method)
+	 at com.sun.jna.Function.invoke(Function.java:429)
+	 at com.sun.jna.Function.invoke(Function.java:364)
+	 at com.sun.jna.Library$Handler.invoke(Library.java:270)
+	 at jdk.proxy12/jdk.proxy12.$Proxy35.ReadFile(Unknown Source)
+	 at com.sap.adt.sapgui.ui.internal.win32.embedding.PipeHelper.readNamedPipe(PipeHelper.java:119)
+	 at com.sap.adt.sapgui.ui.internal.win32.communication.WinGuiEventResponseQueue.readEventPipe(WinGuiEventResponseQueue.java:176)
+	 at com.sap.adt.sapgui.ui.internal.win32.communication.WinGuiEventResponseQueue.run(WinGuiEventResponseQueue.java:65)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-03-26 09:16:17.430 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-26 09:17:08.160
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register a package for 'http://www.sap.com/adt/dbtestdoubles/cds/testcases'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2025-03-26 09:17:08.165
+!MESSAGE Both 'com.sap.adt.testdoubles.cds.model' and 'com.sap.adt.testdoubles.cds.model' register an extension parser for 'cdstestcases'
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-26 09:17:08.450
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-26 09:17:15.304
+!MESSAGE Logback config file: C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY com.sap.adt.util 1 0 2025-03-26 09:17:21.682
+!MESSAGE try to find keystore(s) of operating system
+
+!ENTRY com.sap.adt.util 1 0 2025-03-26 09:17:21.725
+!MESSAGE successfully loaded keystore "Windows-ROOT"
+
+!ENTRY com.sap.adt.util 1 0 2025-03-26 09:17:21.866
+!MESSAGE successfully loaded keystore "Windows-MY"
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-26 09:17:25.039
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I758310'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.adt.compatibility 1 0 2025-03-26 09:17:26.131
+!MESSAGE Failed to load discovery "/sap/bc/adt/discovery" for destination IDA_800_i758310_en: The destination with ID IDA_800_i758310_en is not registered..
+!STACK 0
+java.lang.IllegalStateException: The destination with ID IDA_800_i758310_en is not registered.
+	at com.sap.adt.communication.internal.session.SystemSessionFactoryDelegate.getSystemSessionFactoryForNetworkTechnology(SystemSessionFactoryDelegate.java:152)
+	at com.sap.adt.communication.internal.session.SystemSessionFactoryDelegate.createStatelessSession(SystemSessionFactoryDelegate.java:53)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.createProductiveDiscovery(DiscoveryProxy.java:134)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.verifyDelegate(DiscoveryProxy.java:54)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.getCollectionMember(DiscoveryProxy.java:123)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastUriDiscovery.getIntegrationForecastUri(AdtRisIntegrationForecastUriDiscovery.java:22)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastService.getIntegrationForecastUriFromDiscovery(AdtRisIntegrationForecastService.java:106)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastService.isSupportedByObjectsLink(AdtRisIntegrationForecastService.java:48)
+	at com.sap.adt.integration.forecast.ui.internal.forecast.launch.AdtIntegrationForecastPropertyTester.test(AdtIntegrationForecastPropertyTester.java:74)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.sap.adt.compatibility 1 0 2025-03-26 09:17:28.135
+!MESSAGE Failed to load discovery "/sap/bc/adt/discovery" for destination IDA_800_i758310_en: The destination with ID IDA_800_i758310_en is not registered..
+!STACK 0
+java.lang.IllegalStateException: The destination with ID IDA_800_i758310_en is not registered.
+	at com.sap.adt.communication.internal.session.SystemSessionFactoryDelegate.getSystemSessionFactoryForNetworkTechnology(SystemSessionFactoryDelegate.java:152)
+	at com.sap.adt.communication.internal.session.SystemSessionFactoryDelegate.createStatelessSession(SystemSessionFactoryDelegate.java:53)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.createProductiveDiscovery(DiscoveryProxy.java:134)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.verifyDelegate(DiscoveryProxy.java:54)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.getCollectionMember(DiscoveryProxy.java:123)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastUriDiscovery.getIntegrationForecastUri(AdtRisIntegrationForecastUriDiscovery.java:22)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastService.getIntegrationForecastUriFromDiscovery(AdtRisIntegrationForecastService.java:106)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastService.isSupportedByObjectsLink(AdtRisIntegrationForecastService.java:48)
+	at com.sap.adt.integration.forecast.ui.internal.forecast.launch.AdtIntegrationForecastPropertyTester.test(AdtIntegrationForecastPropertyTester.java:74)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.sap.adt.compatibility 1 0 2025-03-26 09:17:28.256
+!MESSAGE Failed to load discovery "/sap/bc/adt/discovery" for destination IDA_800_i758310_en: The destination with ID IDA_800_i758310_en is not registered..
+!STACK 0
+java.lang.IllegalStateException: The destination with ID IDA_800_i758310_en is not registered.
+	at com.sap.adt.communication.internal.session.SystemSessionFactoryDelegate.getSystemSessionFactoryForNetworkTechnology(SystemSessionFactoryDelegate.java:152)
+	at com.sap.adt.communication.internal.session.SystemSessionFactoryDelegate.createStatelessSession(SystemSessionFactoryDelegate.java:53)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.createProductiveDiscovery(DiscoveryProxy.java:134)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.verifyDelegate(DiscoveryProxy.java:54)
+	at com.sap.adt.compatibility.internal.discovery.DiscoveryProxy.getCollectionMember(DiscoveryProxy.java:123)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastUriDiscovery.getIntegrationForecastUri(AdtRisIntegrationForecastUriDiscovery.java:22)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastService.getIntegrationForecastUriFromDiscovery(AdtRisIntegrationForecastService.java:106)
+	at com.sap.adt.integration.forecast.internal.AdtRisIntegrationForecastService.isSupportedByObjectsLink(AdtRisIntegrationForecastService.java:48)
+	at com.sap.adt.integration.forecast.ui.internal.forecast.launch.AdtIntegrationForecastPropertyTester.test(AdtIntegrationForecastPropertyTester.java:74)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:107)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:59)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:273)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:468)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:254)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

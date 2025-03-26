@@ -1,5 +1,6 @@
 defaultVTrees=FAVORITE_PACKAGES,FAVORITE_OBJECTS,RELEASED_FOR_CLOUD
 eclipse.preferences.version=1
+version/typeFacedMigrated=true
 vtrees/5d1bda6d-2e27-4575-a029-87cfa03900f9/facets=api,group,type
 vtrees/5d1bda6d-2e27-4575-a029-87cfa03900f9/filter=api\:USE_IN_CLOUD_DEVELOPMENT, EXTEND_IN_CLOUD_DEVELOPMENT, USE_IN_AMDP
 vtrees/5d1bda6d-2e27-4575-a029-87cfa03900f9/linkLevels=0

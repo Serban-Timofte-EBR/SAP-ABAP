@@ -1,3 +1,13 @@
 com.sap.adt.tools.abapsource.ui.PREFERENCE_CODEASSIST_INSERT_COMPLETION=false
 com.sap.adt.tools.abapsource.ui.PREFERENCE_CODEASSIST_OVERWRITE_COMPLETION=true
 eclipse.preferences.version=1
+rndWordCompletionCounterBASE=1
+rndWordCompletionCounterDATA\ BEGIN\ OF=1
+rndWordCompletionCounterEXCEPTION=1
+rndWordCompletionCounterEXPORTING=1
+rndWordCompletionCounterIMPLEMENTATION=1
+rndWordCompletionCounterIMPORTING=1
+rndWordCompletionCounterINTERFACES=2
+rndWordCompletionCounterMETHODS=1
+rndWordCompletionCounterTYPE=5
+rndWordCompletionCounterWordList=rndWordCompletionCounterINTERFACES;rndWordCompletionCounterBASE;

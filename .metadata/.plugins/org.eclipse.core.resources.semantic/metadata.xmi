@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
 <SemanticResourceDB:SemanticDB xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SemanticResourceDB="http://www.eclipse.org/core/2009/resources/semantic">
   <roots href="$.TRL_EN_1.xmi#/"/>
+  <roots href="$.IDA_800_i758310_en.xmi#/"/>
 </SemanticResourceDB:SemanticDB>

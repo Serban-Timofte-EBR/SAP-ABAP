@@ -1,2 +1,3 @@
-2025/03/18-11:30:32.174 7644 Creating DB C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata since it was missing.
-2025/03/18-11:30:32.185 7644 Reusing MANIFEST C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/03/26-09:17:35.705 41b8 Reusing MANIFEST C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/03/26-09:17:35.706 41b8 Recovering log #3
+2025/03/26-09:17:35.708 41b8 Reusing old log C:\Users\I758310\Desktop\SAP-ABAP\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\shared_proto_db\metadata/000003.log 

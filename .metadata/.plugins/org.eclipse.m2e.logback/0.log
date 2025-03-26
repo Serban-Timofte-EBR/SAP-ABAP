@@ -13,3 +13,45 @@
 2025-03-18 11:39:53,426 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2d80cec3{STARTING}[12.0.16,sto=0] @592233ms
 2025-03-18 11:40:27,069 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@2d80cec3{STOPPING}[12.0.16,sto=0]
 2025-03-18 11:40:27,072 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7c99558c{HTTP/1.1, (http/1.1)}{localhost:0}
+2025-03-19 11:36:39,259 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.16; built: 2024-12-09T21:02:54.535Z; git: c3f88bafb4e393f23204dc14dc57b042e84debc7; jvm 21.0.6+7-LTS
+2025-03-19 11:36:39,270 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1525a12{ROOT,/,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@29f53fe4{STARTED}}
+2025-03-19 11:36:39,271 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-03-19 11:36:39,281 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1d82136c{HTTP/1.1, (http/1.1)}{localhost:54324}
+2025-03-19 11:36:39,282 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@1d7fc1d2{STARTING}[12.0.16,sto=0] @86803065ms
+2025-03-19 11:36:49,663 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@1d7fc1d2{STOPPING}[12.0.16,sto=0]
+2025-03-19 11:36:49,666 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1d82136c{HTTP/1.1, (http/1.1)}{localhost:0}
+2025-03-19 12:06:07,939 [pool-2-thread-40: Executing request GET /sap/bc/adt/gw/errorlog?$query=and(%20equals(%20username,%20CB9980000674%20)%20)&$inlinecount=allpages&$top=50&_=518439547072100] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->[https://e585c878-140f-4c57-ae5a-b224dcbf7dfb.abap.ap21.hana.ondemand.com:443]
+2025-03-20 09:44:37,721 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.16; built: 2024-12-09T21:02:54.535Z; git: c3f88bafb4e393f23204dc14dc57b042e84debc7; jvm 21.0.6+7-LTS
+2025-03-20 09:44:37,727 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@59d8539e{ROOT,/,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@13221cc0{STARTED}}
+2025-03-20 09:44:37,727 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-03-20 09:44:37,743 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1cb15e7d{HTTP/1.1, (http/1.1)}{localhost:61652}
+2025-03-20 09:44:37,744 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@4447b9f4{STARTING}[12.0.16,sto=0] @166485986ms
+2025-03-20 09:44:46,463 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@4447b9f4{STOPPING}[12.0.16,sto=0]
+2025-03-20 09:44:46,467 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1cb15e7d{HTTP/1.1, (http/1.1)}{localhost:0}
+2025-03-21 12:08:02,906 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-21 12:08:12,535 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.16; built: 2024-12-09T21:02:54.535Z; git: c3f88bafb4e393f23204dc14dc57b042e84debc7; jvm 21.0.6+7-LTS
+2025-03-21 12:08:12,602 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@60b33bc{ROOT,/,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@294bb5f0{STARTED}}
+2025-03-21 12:08:12,603 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-03-21 12:08:12,636 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@49f4de0e{HTTP/1.1, (http/1.1)}{localhost:52194}
+2025-03-21 12:08:12,663 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@7a01358f{STARTING}[12.0.16,sto=0] @67420ms
+2025-03-21 12:08:23,803 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7a01358f{STOPPING}[12.0.16,sto=0]
+2025-03-21 12:08:23,807 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@49f4de0e{HTTP/1.1, (http/1.1)}{localhost:0}
+2025-03-24 12:29:53,625 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-24 12:30:12,439 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.16; built: 2024-12-09T21:02:54.535Z; git: c3f88bafb4e393f23204dc14dc57b042e84debc7; jvm 21.0.6+7-LTS
+2025-03-24 12:30:12,569 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1c6912db{ROOT,/,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@a5a9502{STARTED}}
+2025-03-24 12:30:12,571 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-03-24 12:30:12,659 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1c244e31{HTTP/1.1, (http/1.1)}{localhost:64951}
+2025-03-24 12:30:12,704 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@154b5e43{STARTING}[12.0.16,sto=0] @73228ms
+2025-03-24 12:30:26,001 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@154b5e43{STOPPING}[12.0.16,sto=0]
+2025-03-24 12:30:26,011 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1c244e31{HTTP/1.1, (http/1.1)}{localhost:0}
+2025-03-24 15:27:49,748 [pool-2-thread-28: Executing request GET /sap/bc/adt/bo/feeds/ccviolations?$query=or(%20equals(%20objectResponsible,%20CB9980000674%20),%20equals(%20packageResponsible,%20CB9980000674%20)%20)&$inlinecount=allpages&$top=50&_=281493490677300] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->[https://e585c878-140f-4c57-ae5a-b224dcbf7dfb.abap.ap21.hana.ondemand.com:443]
+2025-03-25 10:00:07,603 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-25 10:00:14,008 [main] INFO  org.eclipse.jetty.server.Server - jetty-12.0.16; built: 2024-12-09T21:02:54.535Z; git: c3f88bafb4e393f23204dc14dc57b042e84debc7; jvm 21.0.6+7-LTS
+2025-03-25 10:00:14,070 [main] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@1571a63a{ROOT,/,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@40ff96ee{STARTED}}
+2025-03-25 10:00:14,071 [main] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-03-25 10:00:14,111 [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@22f9fcbd{HTTP/1.1, (http/1.1)}{localhost:63638}
+2025-03-25 10:00:14,144 [main] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@20e06a86{STARTING}[12.0.16,sto=0] @72680ms
+2025-03-25 10:00:25,453 [main] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@20e06a86{STOPPING}[12.0.16,sto=0]
+2025-03-25 10:00:25,458 [main] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@22f9fcbd{HTTP/1.1, (http/1.1)}{localhost:0}
+2025-03-25 10:05:29,306 [pool-2-thread-6: Executing request GET /sap/bc/adt/runtime/systemmessages?_=348558467335200] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {s}->[https://e585c878-140f-4c57-ae5a-b224dcbf7dfb.abap.ap21.hana.ondemand.com:443]
+2025-03-26 09:17:24,841 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
